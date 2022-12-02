@@ -1,0 +1,8 @@
+ipython
+matplotlib
+numpy
+onnx
+opencv-contrib-python
+scipy
+torch
+torchvision
