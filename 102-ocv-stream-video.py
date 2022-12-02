@@ -6,8 +6,11 @@
 import numpy as np
 import cv2 as cv
 
+PATH = "rtmp://192.168.100.95:1935/awesome/awesome"
+cap = cv.VideoCapture(PATH)
+cap.set(cv.CAP_PROP_FRAME_WIDTH, 100)
+cap.set(cv.CAP_PROP_FRAME_HEIGHT, 100)
 
-cap = cv.VideoCapture(0)
 if not cap.isOpened():
     print("Cannot open camera")
     exit()
