@@ -1,10 +1,10 @@
+imutils
 ipython
 keras
 matplotlib
 numpy
 onnx
 opencv-contrib-python
-pyimagesearch
 scikit-learn
 scipy
 tensorflow
