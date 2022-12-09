@@ -1,5 +1,6 @@
 imutils
 ipython
+ipywidgets
 keras
 matplotlib
 numpy
